@@ -1,0 +1,5 @@
+# How to install
+
+git clone --separate-git-dir=$HOME/.dotfiles git@github.com:Blizarre/dotfiles.git $HOME/dotfiles
+cp -r $HOME/dotfiles/.config/fish $HOME/.config
+rm -r $HOME/dotfiles
