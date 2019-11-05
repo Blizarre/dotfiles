@@ -6,7 +6,10 @@ set hlsearch
 
 set nocompatible
 
+filetype plugin on
 filetype plugin indent on
+set omnifunc=syntaxcomplete#Complete
+
 
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
