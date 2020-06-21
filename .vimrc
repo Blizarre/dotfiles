@@ -2,6 +2,8 @@ set mouse=
 
 syntax enable
 
+set bg=dark
+
 set hlsearch
 
 set nocompatible
